@@ -57,8 +57,6 @@ function download(a, url) {
     }
   }
 }
-download($('#download-all'), config.zip);
-if (config.zip) $('#zip-status').hidden = true;
 
 function route() {
   const p = photos.find(p => '#' + p.id === location.hash);
