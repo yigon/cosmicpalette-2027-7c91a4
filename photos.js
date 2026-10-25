@@ -8,9 +8,9 @@ window.PALETTE = {
     "image": "Assets/Images/NGC1931_1250.jpg",
     "chart": "Assets/Constell/ngc1931_constellation.png",
     "download": "Assets/Images/NGC1931_3000.jpg",
-    "description": "",
-    "date": "",
-    "location": ""
+    "description": "TOA-130NS + ATR3CMOS26000KMA \n Hα + LRGB \n 6시간 33분",
+    "date": "2026년 12월 26일",
+    "location": "강원도 홍천군"
   }, {
     "id": "2",
     "title": "NGC 1499",
