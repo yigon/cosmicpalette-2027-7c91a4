@@ -83,3 +83,42 @@ function route() {
 }
 addEventListener('hashchange', route);
 route();
+
+
+// 커버에서 화면 높이의 15%만큼 내리면 그리드로 이동합니다.
+const COVER_SCROLL_THRESHOLD = 0.15;
+let coverScrollArmed = window.scrollY <= 2;
+let previousCoverScrollY = window.scrollY;
+let coverScrollFrame = 0;
+
+window.addEventListener('scroll', () => {
+  if (coverScrollFrame) return;
+  coverScrollFrame = requestAnimationFrame(() => {
+    coverScrollFrame = 0;
+    const currentY = window.scrollY;
+    const movingDown = currentY > previousCoverScrollY;
+    previousCoverScrollY = currentY;
+
+    // 개별 사진 페이지에서는 일반 스크롤을 유지합니다.
+    if (document.querySelector('#collection').hidden) return;
+
+    const cover = document.querySelector('#cover');
+    const gallery = document.querySelector('#gallery');
+    const coverTop = cover.getBoundingClientRect().top + currentY;
+    const galleryTop = gallery.getBoundingClientRect().top + currentY;
+    const threshold = window.innerHeight * COVER_SCROLL_THRESHOLD;
+
+    // 커버 맨 위로 돌아왔을 때만 다음 자동 전환을 준비합니다.
+    if (currentY <= coverTop + 2) coverScrollArmed = true;
+
+    if (coverScrollArmed && movingDown &&
+        currentY >= coverTop + threshold && currentY < galleryTop) {
+      coverScrollArmed = false;
+      gallery.scrollIntoView({
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches
+          ? 'instant' : 'smooth',
+        block: 'start'
+      });
+    }
+  });
+}, { passive: true });

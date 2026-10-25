@@ -4,7 +4,8 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity
+  /* 전환 임계값은 app.js에서 제어합니다. CSS 스냅과의 충돌을 방지합니다. */
+  scroll-snap-type: none
 }
 
 body {
