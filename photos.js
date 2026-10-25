@@ -8,7 +8,7 @@ window.PALETTE = {
     "image": "Assets/Images/NGC1931_1250.jpg",
     "chart": "Assets/Constell/ngc1931_constellation.png",
     "download": "Assets/Images/NGC1931_3000.jpg",
-    "description": "TOA-130NS + ATR3CMOS26000KMA \n Hα + LRGB \n 6시간 33분",
+    "description": "",
     "date": "2026년 12월 26일",
     "location": "강원도 홍천군"
   }, {
@@ -20,8 +20,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/ngc1499_constellation.png",
     "download": "Assets/Images/NGC1499_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2022년 10월 17일 ~ 10월 20일",
+    "location": "대구광역시 북구"
   }, {
     "id": "3",
     "title": "IC 405",
@@ -31,8 +31,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/ic405_constellation.png",
     "download": "Assets/Images/IC405_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2022년 11월 17일",
+    "location": "대구광역시 북구"
   }, {
     "id": "4",
     "title": "NGC 7635",
@@ -42,8 +42,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/ngc7635_constellation.png",
     "download": "Assets/Images/NGC7635_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2022년 7월 29일",
+    "location": "충청북도 단양군"
   }, {
     "id": "5",
     "title": "NGC 6888",
@@ -53,8 +53,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/ngc6888_constellation.png",
     "download": "Assets/Images/NGC6888_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2024년 10월 2일 ~ 10월 3일",
+    "location": "대구광역시 북구"
   }, {
     "id": "6",
     "title": "NGC 6992",
@@ -64,8 +64,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/ngc6992_constellation.png",
     "download": "Assets/Images/NGC6992_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2022년 8월 16일",
+    "location": "경기도 수원시"
   }, {
     "id": "7",
     "title": "IC 1805",
@@ -75,8 +75,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/ic1805_constellation.png",
     "download": "Assets/Images/IC1805_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2025년 11월 14일",
+    "location": "경기도 시흥시"
   }, {
     "id": "8",
     "title": "NGC 3372",
@@ -86,8 +86,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/ngc3372_constellation.png",
     "download": "Assets/Images/NGC3372_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2022년 7월 1일",
+    "location": "Leigh Creek, South Australia"
   }, {
     "id": "9",
     "title": "NGC 281",
@@ -97,8 +97,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/ngc281_constellation.png",
     "download": "Assets/Images/NGC281_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2022년 10월 12일 ~ 10월 13일",
+    "location": "경상북도 성주군"
   }, {
     "id": "10",
     "title": "Messier 20 & Messier 8",
@@ -108,8 +108,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/m8_constellation.png",
     "download": "Assets/Images/M8M20_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2025년 7월 25일",
+    "location": "충청북도 괴산군"
   }, {
     "id": "11",
     "title": "IC 5070",
@@ -119,8 +119,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/ic5070_constellation.png",
     "download": "Assets/Images/IC5070_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2026년 6월 12일",
+    "location": "충청북도 충주시"
   }, {
     "id": "12",
     "title": "SH2-171",
@@ -130,8 +130,8 @@ window.PALETTE = {
     "chart": "Assets/Constell/sh2171_constellation.png",
     "download": "Assets/Images/SH2-171_3000.jpg",
     "description": "",
-    "date": "",
-    "location": ""
+    "date": "2025년 10월 16일",
+    "location": "충청남도 예산군"
   }],
   "cover": "Assets/Pages/Cover.png"
 };
