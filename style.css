@@ -140,6 +140,12 @@ h1 {
   margin: 0 0 16px
 }
 
+.text-grid {
+  font-size: 12px;
+  letter-spacing: .16em;
+  text-align: center
+}
+
 .text-link {
   font-size: 12px;
   display: inline-block;
