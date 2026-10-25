@@ -9,7 +9,7 @@ window.PALETTE = {
     "chart": "Assets/Constell/ngc1931_constellation.png",
     "download": "Assets/Images/NGC1931_3000.jpg",
     "description": "",
-    "date": "2026년 12월 26일",
+    "date": "2024년 12월 26일",
     "location": "강원도 홍천군"
   }, {
     "id": "2",
