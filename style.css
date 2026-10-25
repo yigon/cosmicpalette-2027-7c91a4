@@ -205,11 +205,6 @@ small {
   letter-spacing: .06em
 }
 
-.placeholder .num {
-  font-size: 30px;
-  color: #aaa69f
-}
-
 .tile:after {
   content: "";
   position: absolute;
@@ -306,22 +301,11 @@ html.detail-open {
   display: block
 }
 
-.photo-placeholder {
-  height: 27svh;
-  min-height: 150px
-}
-
 .chart {
   display: block;
-  width: 142px;
-  height: 142px;
+  width: 250px;
+  height: 250px;
   object-fit: contain;
-  margin: 18px auto
-}
-
-.chart-placeholder {
-  width: 220px;
-  height: 220px;
   margin: 18px auto
 }
 
